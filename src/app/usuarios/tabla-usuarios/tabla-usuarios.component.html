@@ -8,7 +8,7 @@
 	<tr *ngFor="let usuario of usuarios; let i = index;">
 			<td>{{usuario.name}}</td>
 			<td>{{usuario.user_domicilio.fecha_nacimento}}</td>
-			<td>{{usuario.user_domicilio.edad}}</td>
+			<td>{{usuario.user_domicilio.edad_usuario}}</td>
 			<td>{{usuario.user_domicilio.ciudad}}, {{usuario.user_domicilio.colonia}} {{usuario.user_domicilio.numero_exterior}}, {{usuario.user_domicilio.cp}}</td>
 	</tr>
 </table>
